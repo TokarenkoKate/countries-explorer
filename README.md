@@ -11,7 +11,8 @@ This is a list of the world&apos;s countries and their region and total size.
 ---
 ### Link
 The project has been successfully deployed and is currently hosted on <u>[Vercel](https://vercel.com/)</u>, a cloud platform for static sites.
-<u>[Live to the project](https://countries-explorer-nine.vercel.app/)</u>
+
+<u>[Link to the project](https://countries-explorer-nine.vercel.app/)</u>
 ### The assignment
 
 The assignment includes:
