@@ -1,0 +1,19 @@
+.page {
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 64px 40px;
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 44px 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page {
+    padding: 34px 12px;
+  }
+}

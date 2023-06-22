@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Countries Explorer - signle-page application with a list of countries from [REST Countries API](https://restcountries.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a list of the world&apos;s countries and their region and total size.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [The assignment](#the-assignment)
+- [Built with](#built-with)
+- [Screenshot](#screenshot)
+---
+### The assignment
 
-### `npm start`
+The assignment includes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Display a list of the countries from the **API** on the homepage;
+- **Sort** the list **alphabetically** by name (ascending, descending);
+- Implement **filters** that filter countries:
+  - That are smaller than **Lithuania** by area;
+  - That are in **“Oceania”** region;
+- Implemented **pagination**;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Built with
 
-### `npm test`
+- Semantic **HTML5** markup
+- **CSS**
+- **Responsive layout** using media queries, flexbox and CSS Grid
+- **React.Js** library
+- Routing with **React Router**
+- **Redux** state management
+- **Typescript** for type manipulation
+### Screenshot
+- **1400px**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./screenshots/1400.png)
 
-### `npm run build`
+- **768px**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./screenshots/768.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **320px**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](./screenshots/320.png)

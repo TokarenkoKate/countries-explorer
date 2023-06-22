@@ -1,0 +1,123 @@
+.counties {
+  width: 100%;
+}
+
+.countries__title {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.36;
+  color: #64748B;
+}
+
+.countries-table {
+  max-width: 100%;
+  margin: 0 auto 24px;
+  display: grid;
+  grid-template-rows: 59px 1fr;
+}
+
+.counties-table__body {
+  min-height: 590px;
+}
+
+.countries-table__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, 59px);
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.countries-table__head .countries-table__row::after,
+.countries-table__row:not(:last-of-type)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #E7EAEE;
+}
+
+.countries-table__list-item {
+  color: #191D23;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+}
+
+.countries-table__head .countries-table__list-item {
+  text-transform: uppercase;
+  color: #64748B;
+  font-size: 14px;
+  line-height: 1.375;
+}
+
+.countries-table__head .countries-table__list-item span {
+  text-transform: lowercase;
+}
+
+.countries-table__list-item_bold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .countries__title {
+    font-size: 20px;
+  }
+
+  .countries-table__list-item {
+    font-size: 14px;
+  }
+
+  .countries-table__head .countries-table__list-item {
+    font-size: 12px;
+  }
+
+  .countries-table__list-item:not(:first-of-type) {
+    justify-self: center;
+  }
+
+  .countries-table {
+    grid-template-rows: 50px 1fr;
+  }
+
+  .countries-table__row {
+    grid-template-rows: repeat(auto-fill, 50px);
+  }
+
+  .counties-table__body {
+    min-height: 490px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .counties-table__body {
+    min-height: 0;
+  }
+
+  .countries__title {
+    font-size: 16px;
+  }
+
+  .countries-table__list-item {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .countries-table__row {
+    grid-template-columns: 2fr 1fr 1fr
+  }
+
+  .countries-table__head .countries-table__list-item span {
+    display: none;
+  }
+}
