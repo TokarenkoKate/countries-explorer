@@ -1,13 +1,17 @@
-# Countries Explorer - signle-page application with a list of countries from [REST Countries API](https://restcountries.com/)
+# Countries Explorer - single-page application with a list of countries from [REST Countries API](https://restcountries.com/)
 
 This is a list of the world&apos;s countries and their region and total size.
 
 ## Table of contents
 
+- [Link](#link)
 - [The assignment](#the-assignment)
 - [Built with](#built-with)
 - [Screenshot](#screenshot)
 ---
+### Link
+The project has been successfully deployed and is currently hosted on <u>[Vercel](https://vercel.com/)</u>, a cloud platform for static sites.
+<u>[Live to the project](https://countries-explorer-nine.vercel.app/)</u>
 ### The assignment
 
 The assignment includes:
